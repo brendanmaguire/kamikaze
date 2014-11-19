@@ -16,8 +16,8 @@ How it works
 
 This service monitors a Redis sorted set and calls a consumer function
 when a new package arrives or the current highest priority package
-expires. The consumer function must be a Python `asyncio
-coroutine <https://docs.python.org/3/library/asyncio-task.html>`__.
+expires. The consumer function can be a regular Python function or an
+`asyncio coroutine <https://docs.python.org/3/library/asyncio-task.html>`__.
 
 How to install
 --------------
