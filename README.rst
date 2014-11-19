@@ -8,10 +8,6 @@ Kamikaze
 .. image:: https://travis-ci.org/brendanmaguire/kamikaze.png?branch=master
         :target: https://travis-ci.org/brendanmaguire/kamikaze
 
-.. image:: https://pypip.in/d/kamikaze/badge.png
-        :target: https://pypi.python.org/pypi/kamikaze
-
-
 A service for placing prioritised packages with expiry times on a queue and
 having a consumer notified of the packages
 
@@ -64,8 +60,6 @@ Start the service by running the following:
 ::
 
     kamikaze service <consumer-function-path> --consumer-function-args
-
-[...]
 
 The consumer function should be the full path to the python coroutine.
 It must be in your ``$PYTHONPATH``.
