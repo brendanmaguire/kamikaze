@@ -87,14 +87,14 @@ Use the ``remove`` command to remove a package from the queue:
 
     kamikaze remove <payload>
 
-View Queue
-~~~~~~~~~~
+List Packages on Queue
+~~~~~~~~~~~~~~~~~~~~~~
 
-Use the ``view-queue`` command to list all packages on the queue:
+Use the ``list`` command to list all packages on the queue:
 
 ::
 
-    kamikaze view-queue
+    kamikaze list
 
 Running the examples
 --------------------
