@@ -15,6 +15,7 @@ requirements = [
     'argh==0.26.1',
     'asyncio-redis==0.13.4',
     'redis==2.10.3',
+    'tabulate==0.7.3',
     'wheel==0.24.0',
 ]
 
